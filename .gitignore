@@ -1,0 +1,15 @@
+# Build artifacts
+lexer
+lexer.exe
+*.o
+*.obj
+
+# Lexer output
+output.txt
+tokens.txt
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

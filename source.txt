@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main(void) {
+    int count = 42;
+    unsigned long mask = 0xFFu;
+    int hexValue = 0xFE;
+    double ratio = 12.5e-2;
+    float scale = 1.25f;
+    char mark = 'A';
+    const char *message = "Hello, lexer!";
+
+    // Single-line comment
+    if (count >= 10 && ratio != 0.0) {
+        count += 1;
+    }
+
+    /* Multi-line
+       comment */
+    return 0;
+}
